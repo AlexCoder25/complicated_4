@@ -1,0 +1,50 @@
+#gameBlock {
+	border: 1px solid black;
+	margin: 0 auto;
+	background-color: rgb(72, 75, 90);
+}
+
+.block {
+	background-color: rgb(72, 75, 90);
+	float: left;
+	border: 1px solid rgba(20, 20, 20, .25);
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.player {
+	background-color: #008074;
+	position: relative;
+}
+.player:after {
+	content: '🐭';
+    font-size: 40px;
+    position: absolute;
+    top: -5px;
+    left: 4px;
+}
+
+.enemy {
+	background-color: red;
+	position: relative;
+}
+.enemy:after {
+	content: "🐱";
+	font-size: 40px;
+    position: absolute;
+    top: -5px;
+    left: 4px;
+}
+
+.food {
+	background-color: green;
+	position: relative;
+}
+.food:after {
+	content: '🍏';
+	font-size: 40px;
+    position: absolute;
+    top: -5px;
+    left: 4px;
+}
